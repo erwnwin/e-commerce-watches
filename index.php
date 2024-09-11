@@ -44,7 +44,7 @@ $view_path = "views/" . $view_folder . "/index.php";
 if (file_exists($view_path)) {
     include $view_path;
 } else {
-    // echo "Tampilan untuk halaman ini tidak ditemukan!";
+    echo "Tampilan untuk halaman ini tidak ditemukan!";
 }
 
 
